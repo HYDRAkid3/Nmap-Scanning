@@ -1,0 +1,13 @@
+nmap <target> - Basic Scanning 
+
+nmap -v -A <target> - In this scan, it willl tell us about OS detection, Version detection, Script Scanning etc.
+
+nmap -p 1-65000 - <target ip>- In this scan, we have specified the range of port numbers for scanning
+
+nmap <target ip> - Basic scanning
+
+nmap -O <target ip> - It will tell us about what Operating System is present on the taget system
+
+nmap -sV <target ip> - It tells us about the Open orts and and version of each port.
+
+nmap -Pn <target ip> - It is used when the host appears down
